@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            san: ['Outfit', 'sans-serif'],
+          },
+          extend: {
+            colors: {
+              blu: "#091E42",
+              blu1: "#DEEBFF"
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <!-- SECTION 1 Beginning -->
+    <div class="h-[72px] flex">
+      <div class="flex w-[90%] mx-auto justify-center items-center space-x-64">
+        <div class="w-[184px] h-[40px] rounded-lg border-2 flex justify-center items-center"
+          style="border-color: #0052cc; color: #0052cc">
+          <a class="flex flex-row" href="/">
+            <div><img src="../image/add.png" alt="" /></div>
+            <div>Add New Company</div>
+          </a>
+        </div>
+
+        <div class="">
+          <div></div>
+          <div class="font-bold flex" style="color: #344563">
+            <div><img src="../image/Emoji.png" alt="" /></div>
+            <div>Goodmorning,Adekunle Ciroma</div>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center space-x-1" style="color: #606060">
+          <div class="pr-[16px]">
+            <img src="../image/fluent_alert-16-filled.png" alt="" />
+          </div>
+          <div><img src="../image/Ellipse 3.png" alt="" /></div>
+          <div>Adekunle Ciroma</div>
+          <div><img src="../image/third.png" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 1 ending -->
+
+    <!-- SECTION 2 beginning -->
+
+    <div class="flex" style="background-color: #e2ecfb">
+      <div class="flex ml-[10%] w-[100%]">
+        <div class="flex h-[56px] text-center justify-center items-center space-x-9 text-blue-600">
+          <div>
+            <a class="flex space-x-3 text-blue-700" href="./index.html">
+              <img class="h-[25px]" src="../image/home-blue.png" alt="" />
+              <div>Home</div>
+            </a>
+          </div>
+
+          <div class="flex">
+            <a class="flex space-x-3" href="./packages.html">
+              <img src="../image/empty-wallet-tick.png" alt="" />
+              <div>Packages </div>
+            </a>
+          </div>
+
+          <div class="flex space-x-3">
+            <div class="flex flex-col justify-content items-center">
+              <div><img src="../image/profile-tick.png" alt="" /></div>
+            </div>
+            <div><a href="">Profile</a></div>
+          </div>
+
+          <div class="flex space-x-3 h-[40px] w-[125px] p-3 flex justify-center items-center rounded-lg text-white"
+            style="background-color: #0052cc">
+            <div>
+              <img src="../imag/receipt-text-white.png" alt="" />
+            </div>
+            <div><a class="font-lg" href="">Payments</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 2 ending -->
+
+    <section>
+      <div class="bg-white w-[50%] mt-10 mx-auto shadow-lg shadow-black-200">
+        <!-- Payment Successful Begins -->
+        <div
+          class="w-[60%] mx-auto border[1px solid] h-[60vh] rounded flex justify-center items-center bg-white font-Outfit">
+          <div class="w-[100%] mx-auto text-center space-y-6">
+            <div class="text-[24px] font-[700] text-[#091E42]">Payment Successful!</div>
+            <div class="text-[18px] font-[400] leading-[24px] text-[#7A869A]">Hello, Custom package payment has been
+              processed
+              and an invoice will be sent to your email, you can now proceed to your dashboard.</div>
+            <div class="bg-[#0052CC] py-[12px] text-white font-[600] text-[16px] rounded"><button class=""><a
+                  href="/">Ok</a></button>
+            </div>
+          </div>
+        </div>
+        <!-- Payment Successful Ends -->
+      </div>
+    </section>
+
+  </body>
+
+</html>

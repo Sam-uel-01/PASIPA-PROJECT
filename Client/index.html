@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In to Pasipar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/65e9ac7cab.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screen: {},
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              purple: "#413c69",
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="font-Outfit">
+    <div class="w-[100%] h-full lg:flex lg:flex-row">
+      <!-- left side -->
+      <div
+        class="hidden w-[50%] h-screen lg:block"
+        style="
+          background-image: url(./image/Frame101.png);
+          background-size: cover;
+        "
+      ></div>
+
+      <!-- right side -->
+      <div
+        class="w-[100%] sm:w-[25%] md:w-[75%] lg:w-[50%] h-screen flex justify-center items-center"
+      >
+        <div class="w-[76%] mx-auto space-y-8">
+          <div class="text-center font-[700] text-[32px] text-[#091E42]">
+            Sign In to Pasipar
+          </div>
+          <div
+            class="text-center font-[400] text-sm lg:text-[18px] leading-[24px] text-[#7A869A]"
+          >
+            Log in to your pasipar account with the details sent to your email
+            address
+          </div>
+          <div class="space-y-4">
+            <label for="email" class="text-[16px] font-[500] text-[#42526E]">
+              Email Address
+            </label>
+            <input
+              class="w-full py-3 px-5 rounded"
+              type="text"
+              placeholder="Enter your Email Address"
+              style="border: 1px solid #a5adba"
+            />
+          </div>
+          <div
+            class="w-full py-3 px-2 rounded text-white text-center text-[16px] font-[600]"
+            style="padding: 12px, 25px, 12px, 25px; background-color: #0052cc"
+          >
+            <button><a href="./verifyOTP.html">Sign In</a></button>
+          </div>
+          <div class="w-full text-[16px] font-[400] text-center text-[#7A869A]">
+            By signing in, you agree to the Pasipar
+            <a href="/" style="text-decoration: underline">
+              <b>terms of use</b>
+            </a>
+            and
+            <a href="/" style="text-decoration: underline">
+              <b>privacy policy</b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

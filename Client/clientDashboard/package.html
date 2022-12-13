@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screen: {
+            large: "789px",
+            larger: "1039px",
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              dark: "rgba(0,0,0,.1)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body style="font-family: outfit">
+    <!-- SECTION 1 Beginning -->
+    <div class="h-[72px] flex">
+      <div class="flex w-[90%] mx-auto justify-center items-center space-x-64">
+        <div class="w-[184px] h-[40px] rounded-lg border-2 flex justify-center items-center"
+          style="border-color: #0052cc; color: #0052cc">
+          <a class="flex flex-row" href="/">
+            <div><img src="../image/add.png" alt="" /></div>
+            <div>Add New Company</div>
+          </a>
+        </div>
+
+        <div class="">
+          <div></div>
+          <div class="font-bold flex" style="color: #344563">
+            <div><img src="../image/Emoji.png" alt="" /></div>
+            <div>Goodmorning,Adekunle Ciroma</div>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center space-x-1" style="color: #606060">
+          <div class="pr-[16px]">
+            <img src="../image/fluent_alert-16-filled.png" alt="" />
+          </div>
+          <div><img src="./image/Ellipse 3.png" alt="" /></div>
+          <div>Adekunle Ciroma</div>
+          <div><img src="../image/third.png" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 1 ending -->
+
+    <!-- SECTION 2 beginning -->
+
+    <div class="flex" style="background-color: #e2ecfb">
+      <div class="flex ml-[10%] w-[100%]">
+        <div class="flex h-[56px] text-center justify-center items-center space-x-9 text-blue-600">
+          <div>
+            <a class="flex space-x-3 text-blue-700" href="./index.html">
+              <img class="h-[25px]" src="../image/home-blue.png" alt="" />
+              <div><a href="./index.html">Home</a></div>
+            </a>
+          </div>
+
+          <div class="flex space-x-3 h-[40px] w-[120px] p-2 flex justify-center items-center rounded-lg text-white"
+            style="background-color: #0052cc">
+            <a class="flex space-x-3" href="./packages.html">
+              <img src="../image/empty-wallet-tick-white.png" alt="" />
+              <div><a href="./packages.html">Packages</a></div>
+            </a>
+          </div>
+
+          <div class="flex space-x-3">
+            <div class="flex flex-col justify-content items-center">
+              <div><img src="../image/profile-tick.png" alt="" /></div>
+            </div>
+            <div><a href="">Profile</a></div>
+          </div>
+
+          <div class="flex">
+            <div>
+              <img src="../image/receipt-text.png" alt="" />
+            </div>
+            <div><a href="./payments.html">Payments</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 2 ending -->
+
+    <!-- SECTION 3 beginning -->
+
+    <div class="lg:px-[90px] px-[25px]">
+      <div class="py-8 flex items-center justify-between">
+        <div class=" lg:w-[100%] mx-auto">
+          <div class="font-bold text-2xl">My Pasipar Package</div>
+          <div class="opacity-60 ">
+            Below is the package you subscribe for.
+          </div>
+        </div>
+        <div class="flex mx-auto justify-center items-center bg-blue-600 text-white rounded w-[168px] h-[45px]">
+          <button><a href="./packages.html">Show all Packages</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3 ending -->
+
+    <!-- FOURTH SECTION beginning -->
+    <div class="">
+      <div class="rounded-lg w-[90%] flex flex-col gap-[10px] mx-auto lg:h-[290px]"
+        style="box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px">
+        <div class="flex flex-col w-[85%] lg:w-[90%] mx-auto mt-[10%] mb-[10%] lg:mt-[3%] lg:gap-[10px] ">
+          <div class="flex space-x-20">
+            <div><img src="../image/Frame 39552.png" alt="" /></div>
+            <div class="">
+              <button class="bg-[#E3FCEF] w-[92px] h-[38px] rounded-lg text-[#006644]">
+                Active
+              </button>
+            </div>
+          </div>
+          <div>This is your active plan subscription</div>
+          <div class="flex">
+            <div class="font-bold text-[40px] opacity-80">$3,000.00</div>
+            <div class="opacity-60 mt-[20px]">/monthly</div>
+          </div>
+          <div class="flex lg:space-x-[60%]">
+            <div class="">
+              <div class="flex gap-[10px]">
+                <div class="font-bold">Start Date:</div>
+                <div class="">4th October 2024</div>
+              </div>
+              <div class="flex lg:gap-[10px]">
+                <div class="font-bold">Due date:</div>
+                <div class="">4th November 2024</div>
+              </div>
+            </div>
+            <div class="">
+              <a class="flex space-x-2" href="./packages.html">
+                <div class="text-blue-600">See Package Details</div>
+                <div><img src="../image/arrow-right.png" alt="" /></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screen: {
+            large: "789px",
+            larger: "1039px",
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              dark: "rgba(0,0,0,.1)",
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- SECTION 1 Beginning -->
+    <div class="h-[72px] flex">
+      <div class="flex w-[90%] mx-auto justify-center items-center space-x-64">
+        <div class="w-[184px] h-[40px] rounded-lg border-2 flex justify-center items-center"
+          style="border-color: #0052cc; color: #0052cc">
+          <a class="flex flex-row" href="/">
+            <div><img src="../image/add.png" alt="" /></div>
+            <div>Add New Company</div>
+          </a>
+        </div>
+
+        <div class="">
+          <div></div>
+          <div class="font-bold flex" style="color: #344563">
+            <div><img src="../image/Emoji.png" alt="" /></div>
+            <div>Goodmorning,Adekunle Ciroma</div>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center space-x-1" style="color: #606060">
+          <div class="pr-[16px]">
+            <img src="../image/fluent_alert-16-filled.png" alt="" />
+          </div>
+          <div><img src="../image/Ellipse 3.png" alt="" /></div>
+          <div>Adekunle Ciroma</div>
+          <div><img src="../image/third.png" alt="" /></div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 1 ending -->
+
+    <!-- SECTION 2 beginning -->
+
+    <div class="flex" style="background-color: #e2ecfb">
+      <div class="flex ml-[10%] w-[100%]">
+        <div class="flex h-[56px] text-center justify-center items-center space-x-9 text-blue-600">
+          <div class="h-[40px] w-[98px] flex justify-center items-center rounded-lg" style="background-color: #0052cc">
+            <a class="flex space-x-3 text-white" href="/">
+              <img class="h-[20px]" src="../image/home button.png" alt="" />
+              <div class="text-[#e2ecfb]"><a href="./index.html">Home</a></div>
+            </a>
+          </div>
+
+          <div class="flex space-x-3">
+            <div>
+              <img src="../image/empty-wallet-tick.png" alt="" />
+            </div>
+            <div><a href="./packages.html">Packages</a></div>
+          </div>
+
+          <div class="flex space-x-3">
+            <div class="flex flex-col justify-content items-center">
+              <div><img src="../image/profile-tick.png" alt="" /></div>
+            </div>
+            <div>Profile</div>
+          </div>
+
+          <div class="flex">
+            <div>
+              <img src="../image/receipt-text.png" alt="" />
+            </div>
+            <div><a href="./payments.html">Payments</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 2 ending -->
+
+    <!-- SECTION 2 beginning -->
+    <div class="flex flex-col gap-[20px] mt-[40px]">
+      <div class="font-bold ml-[10%] text-2xl" style="color: #091e42">
+        Welcome to Pasipar
+      </div>
+      <div class="ml-[10%]" style="color: #505f79">
+        Let's get you started. Below are your current and upcoming activites.
+      </div>
+      <div class="flex justify-center items-center gap-10">
+        <div class=""><img src="../image/Frame 39556.png" alt="" /></div>
+        <div class="flex flex-col justify-center item-center h-[224px] w-[75%] rounded-lg"
+          style="box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px">
+          <div class="flex flex-col mx-[35px] gap-[15px]">
+            <div class="font-bold" style="color: #344563">
+              Appoinment Scheduled
+            </div>
+            <div class="flex space-x-44">
+              <div style="color: #505f79">
+                You have successfully scheduled a call with Pasipar for 24th
+                October, 2022 and the details for the appointment has been sent
+                to
+                <a class="text-blue-600 underline" href="/">adekunle@xyz.com</a>
+                We look forward to speaking with you.
+              </div>
+              <button class="text-sm w-[190px] h-[34px] rounded-lg bg-"
+                style="color: #ff8b00; background-color: #fff0b3">
+                Pending
+              </button>
+            </div>
+            <div class="flex justify-center text-white w-[104px] h-[40px] rounded-lg" style="background-color: #0052cc">
+              <button>Join call</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
