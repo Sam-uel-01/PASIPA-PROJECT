@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to Pasipar</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: "#da373d",
+                        },
+                    },
+                },
+            }
+        </script>
+    </head>
+
+    <body>
+        <!-- SECTION 1 Beginning -->
+        <div class="h-[72px] flex">
+            <div class="flex w-[90%] mx-auto justify-center items-center space-x-64">
+                <div class="w-[184px] h-[40px] rounded-lg border-2 flex justify-center items-center"
+                    style="border-color: #0052cc; color: #0052cc">
+                    <a class="flex flex-row" href="/">
+                        <div><img src="../image/add.png" alt="" /></div>
+                        <div>Add New Company</div>
+                    </a>
+                </div>
+
+                <div class="">
+                    <div></div>
+                    <div class="font-bold flex" style="color: #344563">
+                        <div><img src="../image/Emoji.png" alt="" /></div>
+                        <div>Goodmorning,Adekunle Ciroma</div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center space-x-1" style="color: #606060">
+                    <div class="pr-[16px]">
+                        <img src="../image/fluent_alert-16-filled.png" alt="" />
+                    </div>
+                    <div><img src="../image/Ellipse 3.png" alt="" /></div>
+                    <div>Adekunle Ciroma</div>
+                    <div><img src="../image/third.png" alt="" /></div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION 1 ending -->
+
+        <!-- SECTION 2 beginning -->
+
+        <div class="flex" style="background-color: #e2ecfb">
+            <div class="flex ml-[10%] w-[100%]">
+                <div class="flex h-[56px] text-center justify-center items-center space-x-9 text-blue-600">
+                    <div class="h-[40px] w-[98px] flex justify-center items-center rounded-lg"
+                        style="background-color: #0052cc">
+                        <a class="flex space-x-3 text-white" href="/">
+                            <img class="h-[20px]" src="../image/home button.png" alt="" />
+                            <div class="text-[#e2ecfb]"><a href="./index.html">Home</a></div>
+                        </a>
+                    </div>
+
+                    <div class="flex space-x-3">
+                        <div>
+                            <img src="../image/empty-wallet-tick.png" alt="" />
+                        </div>
+                        <div><a href="./packages.html">Packages</a></div>
+                    </div>
+
+                    <div class="flex space-x-3">
+                        <div class="flex flex-col justify-content items-center">
+                            <div><img src="../image/profile-tick.png" alt="" /></div>
+                        </div>
+                        <div>Profile</div>
+                    </div>
+
+                    <div class="flex">
+                        <div>
+                            <img src="../image/receipt-text.png" alt="" />
+                        </div>
+                        <div><a href="./payments.html">Payments</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION 2 ending -->
+
+        <section class="w-full p-[25px] lg:px-[90px] h-full">
+            <h3 class="text-[2rem] font-bold">Welcome to Pasipar</h3>
+            <p>
+                Let's get you started .Below are your current and upcoming activities.
+            </p>
+            <div class="flex gap-[2rem] w-[80vw] mx-[auto]">
+                <div class="h-[40vh] w-[2.5rem] mt-[8rem] ml-[2.5rem]">
+                    <img class="h-[100%] w-[100%]" src="../image/Frame 39558.png" alt="tick" />
+                </div>
+
+                <div class="">
+                    <div class="flex justify-between gap-[4rem] mt-[2rem] p-[2rem] shadow-black border-4 rounded-lg">
+                        <div>
+                            <h3 class="py-[1rem] font-bold">Appointed Scheduled</h3>
+                            <p>
+                                You have succesfully scheduled a call with Pasipar for 24th
+                                october,2022 and the details for the <br />
+                                appointment has been sent to
+                                <a class="text-[blue]" href="#">adekunlexyz.com</a>. We look
+                                forward to speaking with you.
+                            </p>
+                            <button class="px-[1rem] mt-[1rem] py-[0.5rem] rounded-lg bg-[#969FAE]">
+                                Join Call
+                            </button>
+                        </div>
+
+                        <div>
+                            <button class="px-[2rem] mt-[4rem] py-[0.5rem] rounded-lg bg-[#DEEBFF]">
+                                Done
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between gap-[4rem] mt-[2rem] p-[2rem] shadow-black border-4 rounded-lg">
+                        <div>
+                            <h3 class="py-[1rem] font-bold">Custom Packages Selected</h3>
+                            <p>
+                                You have successfully selected and paid for a custom plan with a
+                                total price of <b>$3,000 </b>
+                            </p>
+                            <button class="px-[1rem] mt-[1rem] py-[0.5rem] rounded-lg bg-[#2C53CC]">
+                                View package Details
+                            </button>
+                        </div>
+
+                        <div>
+                            <button class="px-[2.1rem] mt-[4rem] py-[0.5rem] rounded-lg bg-[#DEEBFF]">
+                                Paid
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
