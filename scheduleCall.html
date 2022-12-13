@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,8 +20,9 @@
       }
     </script>
   </head>
+
   <body>
-    <section class="bg-[rgb(69,132,255)] md:h-full w-full lg:h-full w-full">
+    <section class="bg-[rgb(69,132,255)] md:h-full w-full lg:h-full lg:px-[80px] p-[25px]">
       <div class="flex flex-col md:flex-row xl:gap-[8rem]">
         <div class="flex-1 text-white">
           <div class="h-[20vh]">
@@ -40,16 +42,12 @@
           </div>
 
           <div class="h-[53vh] overflow-hidden mt-[15vh]">
-            <img
-              class="w-[auto] h-[100%]"
-              src="./icons/cuate.png"
-              alt="spaceRocket"
-            />
+            <img class="w-[auto] h-[100%]" src="./icons/cuate.png" alt="spaceRocket" />
           </div>
         </div>
 
-        <div class="flex-1">
-          <div class="md:p-[1rem] xl:pr-[10rem]">
+        <div class="flex lg:w-[45%]">
+          <div class="md:p-[1rem] ">
             <div class="bg-white py-[1rem] mt-[2rem] rounded-lg">
               <div class="px-[3rem] mt-[1rem]">
                 <p class="pb-[1rem] text-[28px] font-bold">Step 1</p>
@@ -63,36 +61,36 @@
 
                 <div class="text-[grey]">
                   <p class="mb-2">First Name</p>
-                  <input
-                    type="text"
-                    placeholder=" Enter your First Name"
-                    class="rounded-lg border-2 h-[2.5rem] w-[100%] mb-4"
-                  />
+                  <input type="text" placeholder=" Enter your First Name"
+                    class="rounded-lg border-2 h-[2.5rem] w-[100%] mb-4" />
 
                   <p class="mb-2">Last Name</p>
-                  <input
-                    type="text"
-                    placeholder="   Enter your Last Name"
-                    class="rounded-lg border-2 h-[2.5rem] w-[100%] mb-4"
-                  />
+                  <input type="text" placeholder="   Enter your Last Name"
+                    class="rounded-lg border-2 h-[2.5rem] w-[100%] mb-4" />
 
                   <p class="mb-2">Company Email Address</p>
-                  <input
-                    type="text"
-                    placeholder=" Enter your company Email Address"
-                    class="rounded-lg border-2 h-[2.5rem] w-[100%] mb-4"
-                  />
+                  <input type="text" placeholder=" Enter your company Email Address"
+                    class="rounded-lg border-2 h-[2.5rem] w-[100%] mb-4" />
 
-                  <p class="mb-2">Phone Number</p>
-                  <input
-                    type="phone"
-                    placeholder=" Enter your Phone Number"
-                    class="rounded-lg border-2 h-[2.5rem] w-full mb-4"
-                  />
+                  <p class="mb-2">phone Number</p>
 
-                  <button
-                    class="bg-[blue] text-[white] w-[100%] h-[2.5rem] rounded-lg mb-[6rem] md:mb-[1rem]"
-                  >
+                  <div class="flex w-full h-[2.5rem] rounded-lg border-2 mb-4">
+                    <div class="flex w-[20%] h-[1.2rem] my-[auto]">
+                      <div class="w-[1.2rem] h-[1rem] mt-[0.3rem]">
+                        <img class="w-full h-full" src="./icons/nigerian flag.png" alt="" />
+                      </div>
+
+                      <div class="">
+                        <select name="" id="nigeria">
+                          <option value="nigeria">+234</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <input class="text-lx w-full" type="phone" placeholder="Enter your Phone Number" />
+                  </div>
+
+                  <button class="bg-[blue] text-[white] w-[100%] h-[2.5rem] rounded-lg mb-[6rem] md:mb-[1rem]">
                     Continue
                   </button>
                 </div>
@@ -103,4 +101,5 @@
       </div>
     </section>
   </body>
+
 </html>
